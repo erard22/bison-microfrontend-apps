@@ -6,7 +6,13 @@ import {provideWorkbench} from '@scion/workbench';
 
 export const appConfig: ApplicationConfig = {
   providers: [
-    provideWorkbench(),
+    provideWorkbench({
+      microfrontendPlatform: {
+        applications: [
+          {symbolicName: 'bison-order-app', manifestUrl: 'http://localhost:5001/manifest.json'},
+        ],
+      },
+    }),
     provideRouter(routes),
     provideAnimations(),
   ],
