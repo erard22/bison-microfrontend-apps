@@ -10,6 +10,7 @@ export const appConfig: ApplicationConfig = {
       microfrontendPlatform: {
         applications: [
           {symbolicName: 'bison-order-app', manifestUrl: 'http://localhost:5001/manifest.json'},
+          {symbolicName: 'bison-product-app', manifestUrl: 'http://localhost:5002/manifest.json'},
         ],
       },
     }),
