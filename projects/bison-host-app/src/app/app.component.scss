@@ -1,0 +1,36 @@
+:host {
+  display: flex;
+  flex-direction: column;
+
+  > header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--sci-color-border);
+    padding: .25em .5em;
+
+    > span.title {
+      font-weight: bold;
+    }
+
+    > button {
+      all: unset;
+      cursor: pointer;
+      padding: .25em .75em;
+      border: 1px solid var(--sci-color-text);
+      border-radius: var(--sci-corner-small);
+      background-clip: padding-box;
+      text-align: center;
+
+      &:focus, &:active, &:hover {
+        border-color: var(--sci-color-accent);
+        color: var(--sci-color-accent);
+        outline: none;
+      }
+    }
+  }
+
+  > wb-workbench {
+    flex: auto
+  }
+}

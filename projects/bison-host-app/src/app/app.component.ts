@@ -1,5 +1,5 @@
-import {Component} from '@angular/core';
-import {WorkbenchComponent} from '@scion/workbench';
+import {Component, inject} from '@angular/core';
+import {WorkbenchComponent, WorkbenchService} from '@scion/workbench';
 
 @Component({
   selector: 'app-root',
@@ -9,4 +9,10 @@ import {WorkbenchComponent} from '@scion/workbench';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
+
+  private workbenchService = inject(WorkbenchService);
+
+  public onPerspectiveReset(): void {
+    this.workbenchService.resetPerspective();
+  }
 }
