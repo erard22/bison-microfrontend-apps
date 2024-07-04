@@ -1,0 +1,11 @@
+<app-customer-info [customer]="order().customer" [address]="order().shippingAddress"/>
+
+<span class="date">Date:</span><span>{{order().date}}</span>
+<span class="total">Total:</span><span>CHF {{order().total}}</span>
+
+<section class="items">
+  @for (item of order().items; track item) {
+    <app-order-item [item]="item" (click)="onOrderItemClick(item)"/>
+  }
+</section>
+

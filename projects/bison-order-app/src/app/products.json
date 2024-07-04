@@ -1,0 +1,202 @@
+[
+  {
+    "id": "1",
+    "name": "Apple iPhone 13",
+    "price": 999.00
+  },
+  {
+    "id": "2",
+    "name": "Samsung 4K Smart TV",
+    "price": 1499.99
+  },
+  {
+    "id": "3",
+    "name": "Sony Noise Cancelling Headphones",
+    "price": 299.99
+  },
+  {
+    "id": "4",
+    "name": "Dell XPS 15 Laptop",
+    "price": 1899.99
+  },
+  {
+    "id": "5",
+    "name": "Canon EOS R5 Mirrorless Camera",
+    "price": 3899.00
+  },
+  {
+    "id": "6",
+    "name": "Nike Air Zoom Pegasus 38 Running Shoes",
+    "price": 119.99
+  },
+  {
+    "id": "7",
+    "name": "Apple AirPods Pro",
+    "price": 249.00
+  },
+  {
+    "id": "8",
+    "name": "Samsung Galaxy Tab S7",
+    "price": 649.99
+  },
+  {
+    "id": "9",
+    "name": "LG OLED 4K TV",
+    "price": 2499.99
+  },
+  {
+    "id": "10",
+    "name": "Bose QuietComfort 45 Headphones",
+    "price": 329.00
+  },
+  {
+    "id": "11",
+    "name": "Microsoft Surface Laptop 4",
+    "price": 1299.99
+  },
+  {
+    "id": "12",
+    "name": "GoPro HERO10 Black",
+    "price": 499.99
+  },
+  {
+    "id": "13",
+    "name": "Amazon Echo Show 10 (3rd Gen)",
+    "price": 249.99
+  },
+  {
+    "id": "14",
+    "name": "Xbox Series X",
+    "price": 499.99
+  },
+  {
+    "id": "15",
+    "name": "Google Pixel 6 Pro",
+    "price": 899.00
+  },
+  {
+    "id": "16",
+    "name": "Nintendo Switch OLED Model",
+    "price": 349.99
+  },
+  {
+    "id": "17",
+    "name": "Fitbit Charge 5",
+    "price": 179.95
+  },
+  {
+    "id": "18",
+    "name": "Sony BRAVIA XR A90J 4K TV",
+    "price": 3299.99
+  },
+  {
+    "id": "19",
+    "name": "Microsoft Xbox Elite Wireless Controller Series 2",
+    "price": 179.99
+  },
+  {
+    "id": "20",
+    "name": "DJI Mavic Air 2",
+    "price": 799.00
+  },
+  {
+    "id": "21",
+    "name": "Apple iPhone 14",
+    "price": 999.99
+  },
+  {
+    "id": "22",
+    "name": "Samsung Galaxy S22",
+    "price": 799.99
+  },
+  {
+    "id": "23",
+    "name": "Sony WH-1000XM4 Headphones",
+    "price": 299.99
+  },
+  {
+    "id": "24",
+    "name": "Dell XPS 13 Laptop",
+    "price": 999.99
+  },
+  {
+    "id": "25",
+    "name": "Apple MacBook Pro",
+    "price": 2399.99
+  },
+  {
+    "id": "26",
+    "name": "Nintendo Switch",
+    "price": 119.99
+  },
+  {
+    "id": "27",
+    "name": "Google Pixel 6",
+    "price": 599.99
+  },
+  {
+    "id": "28",
+    "name": "Samsung Galaxy Watch 4",
+    "price": 249.99
+  },
+  {
+    "id": "29",
+    "name": "Sony PlayStation 5",
+    "price": 499.99
+  },
+  {
+    "id": "30",
+    "name": "Microsoft Xbox Series X",
+    "price": 499.99
+  },
+  {
+    "id": "31",
+    "name": "Canon EOS R5 Camera",
+    "price": 1299.99
+  },
+  {
+    "id": "32",
+    "name": "Nikon Z7 II Camera",
+    "price": 1299.99
+  },
+  {
+    "id": "33",
+    "name": "Bose QuietComfort 35 II",
+    "price": 349.99
+  },
+  {
+    "id": "34",
+    "name": "Apple Watch Series 7",
+    "price": 399.99
+  },
+  {
+    "id": "35",
+    "name": "iPad Pro",
+    "price": 1099.99
+  },
+  {
+    "id": "36",
+    "name": "Samsung Galaxy Tab S7",
+    "price": 529.99
+  },
+  {
+    "id": "37",
+    "name": "DJI Mavic Air 2",
+    "price": 799.99
+  },
+  {
+    "id": "38",
+    "name": "GoPro HERO9",
+    "price": 449.99
+  },
+  {
+    "id": "39",
+    "name": "Razer Blade 15",
+    "price": 1899.99
+  },
+  {
+    "id": "40",
+    "name": "HP Spectre x360",
+    "price": 999.99
+  }
+]

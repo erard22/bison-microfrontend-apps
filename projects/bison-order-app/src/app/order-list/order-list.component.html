@@ -1,0 +1,3 @@
+@for (order of orders; track order.id) {
+  <app-order-list-item [order]="order" (click)="onOpenOrder(order.id)"/>
+}

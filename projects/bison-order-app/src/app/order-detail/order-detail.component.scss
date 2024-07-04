@@ -1,0 +1,31 @@
+:host {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  place-content: start;
+  padding: 1em;
+  gap: .25em 2em;
+
+  > app-customer-info {
+    grid-row: 1/4;
+  }
+
+  > span.date, > span.total {
+    grid-column: 2/3;
+    align-self: start;
+  }
+
+  > section.items {
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    padding-top: 3em;
+
+    > app-order-item {
+      cursor: pointer;
+
+      &:hover {
+        background-color: var(--sci-color-background-secondary-hover);
+      }
+    }
+  }
+}

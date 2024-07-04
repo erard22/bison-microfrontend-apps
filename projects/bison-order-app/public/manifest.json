@@ -1,6 +1,76 @@
 {
   "name": "Bison Order App",
   "baseUrl": "#",
-  "capabilities": [],
-  "intentions": []
+  "capabilities": [
+    {
+      "type": "view",
+      "qualifier": {
+        "entity": "orders"
+      },
+      "private": true,
+      "properties": {
+        "path": "orders",
+        "title": "Open Orders",
+        "showSplash": true
+      }
+    },
+    {
+      "type": "view",
+      "qualifier": {
+        "entity": "order"
+      },
+      "params": [
+        {
+          "name": "id",
+          "required": true
+        }
+      ],
+      "private": true,
+      "properties": {
+        "path": "orders/:id",
+        "showSplash": true
+      }
+    },
+    {
+      "type": "perspective",
+      "qualifier": {
+        "perspective": "orders"
+      },
+      "properties": {
+        "layout": [
+          {
+            "id": "main-area"
+          },
+          {
+            "id": "left",
+            "align": "left",
+            "relativeTo": "main-area",
+            "ratio": 0.25,
+            "views": [
+              {
+                "qualifier": {
+                  "entity": "orders"
+                }
+              }
+            ]
+          },
+          {
+            "id": "right",
+            "align": "right",
+            "relativeTo": "main-area",
+            "ratio": 0.25,
+            "views": []
+          }
+        ]
+      }
+    }
+  ],
+  "intentions": [
+    {
+      "type": "view",
+      "qualifier": {
+        "entity": "product"
+      }
+    }
+  ]
 }

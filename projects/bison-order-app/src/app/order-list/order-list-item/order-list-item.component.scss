@@ -1,0 +1,35 @@
+:host {
+  padding: .25em 1em;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1.5em;
+  container-name: item;
+  container-type: inline-size;
+
+  @container order-list (max-width: 400px) {
+    grid-template-columns: 1fr 1fr;
+    gap: .5em;
+
+    > span.date {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+
+    > span.total {
+      grid-column: 2/3;
+      grid-row: 1/2;
+      justify-self: end;
+    }
+
+    > span.product {
+      grid-column: 1/-1;
+      grid-row: 2/3;
+    }
+  }
+
+  > span.product {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+}
