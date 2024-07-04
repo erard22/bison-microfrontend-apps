@@ -11,8 +11,9 @@ export const appConfig: ApplicationConfig = {
         applications: [
           {symbolicName: 'bison-order-app', manifestUrl: 'http://localhost:5001/manifest.json'},
           {symbolicName: 'bison-product-app', manifestUrl: 'http://localhost:5002/manifest.json'},
-        ],
-      },
+          {symbolicName: 'devtools', manifestUrl: 'https://scion-microfrontend-platform-devtools-v1-3-0.vercel.app/manifest.json', intentionCheckDisabled: true, scopeCheckDisabled: true},
+        ]
+      }
     }),
     provideRouter(routes),
     provideAnimations(),

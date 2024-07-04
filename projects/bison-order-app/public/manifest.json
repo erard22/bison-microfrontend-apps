@@ -60,12 +60,33 @@
             "relativeTo": "main-area",
             "ratio": 0.25,
             "views": []
+          },
+          {
+            "id": "bottom",
+            "align": "bottom",
+            "relativeTo": "main-area",
+            "ratio": 0.25,
+            "views": [
+              {
+                "qualifier": {
+                  "component": "devtools",
+                  "vendor": "scion"
+                }
+              }
+            ]
           }
         ]
       }
     }
   ],
   "intentions": [
+    {
+      "type": "view",
+      "qualifier": {
+        "component": "devtools",
+        "vendor": "scion"
+      }
+    },
     {
       "type": "view",
       "qualifier": {
