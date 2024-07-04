@@ -1,7 +1,38 @@
 {
   "name": "Bison Product App",
   "baseUrl": "#",
-  "capabilities": [],
+  "capabilities": [
+    {
+      "type": "view",
+      "qualifier": {
+        "entity": "products"
+      },
+      "private": false,
+      "properties": {
+        "path": "products",
+        "title": "Product Catalog",
+        "showSplash": true
+      }
+    },
+    {
+      "type": "view",
+      "qualifier": {
+        "entity": "product"
+      },
+      "params": [
+        {
+          "name": "id",
+          "required": true
+        }
+      ],
+      "private": false,
+      "properties": {
+        "path": "products/:id",
+        "title": "Product Catalog",
+        "showSplash": true
+      }
+    }
+  ],
   "intentions": [
   ]
 }

@@ -69,6 +69,11 @@
             "views": [
               {
                 "qualifier": {
+                  "entity": "products"
+                }
+              },
+              {
+                "qualifier": {
                   "component": "devtools",
                   "vendor": "scion"
                 }
@@ -91,6 +96,12 @@
       "type": "view",
       "qualifier": {
         "entity": "product"
+      }
+    },
+    {
+      "type": "view",
+      "qualifier": {
+        "entity": "products"
       }
     }
   ]
